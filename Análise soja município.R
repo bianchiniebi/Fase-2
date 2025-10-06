@@ -1,4 +1,5 @@
 #MarceloBianchini_rm567412_Fase2_cap7
+#https://github.com/bianchiniebi/Fase-2
 
 # install.packages(c("readxl", "ggplot2", "dplyr", "modeest"), dependencies = TRUE)
 library(readxl)
@@ -55,7 +56,7 @@ cat("Percentil 90:", percentil_90, "\n\n")
 library(ggplot2)
 library(scales)
 
-# === Gráficos da variável quantitativa ===
+# Gráficos da variável quantitativa
 
 # Histograma
 ggplot(dados, aes(x = produção_soja_ton)) +
